@@ -1,0 +1,8 @@
+.acc-container {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.acc-container:hover {
+  cursor: pointer;  
+}

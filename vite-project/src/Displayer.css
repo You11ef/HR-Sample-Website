@@ -1,0 +1,97 @@
+.display {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  row-gap: 2vh;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+.max {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+
+.display-card {
+  position: absolute;
+  left: 400px;
+  right: 0;
+  top: 10vh;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(100, 100, 100, 0.5);
+  transition: opacity 0.2s;
+}
+
+.state-opened {
+  overflow-y: hidden;
+}
+
+.state-closed {
+  overflow-y: scroll;
+}
+
+.opened {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s;
+}
+
+.closed {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+}
+
+
+
+.buttons {
+  top: 0;
+  left: 100%;
+  transform: translate(-100%, 0);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 0px;
+  border-color: black;
+  transition: background-color 0.2s;
+}
+
+
+.btn:hover {
+  background-color: rgb(150, 150, 150);
+}
+
+
+.icon {
+  margin-top: 2px;
+  width: 100%;
+}
+
+.top {
+  height: 60px;
+  margin: 0;
+}
+
+.mid {
+  width: 90%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.worker-chart.displayed {
+  margin: 0;
+}

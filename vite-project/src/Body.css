@@ -1,0 +1,11 @@
+.body-container {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  height: 90vh;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+  font-weight: bolder;
+}

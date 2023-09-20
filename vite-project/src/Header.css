@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(150, 150, 150);
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  padding: 1px 1px;
+  width: 400px;
+  height: 30px;
+}
+
+.btn-bar {
+  border-radius: 0;
+  width: 30px;
+  transition: background-color 0.2s;
+}
+
+
+.search-bar {
+  border: none;
+  width: 100%;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+
+.logo {
+
+  width: 100px;
+  margin-left: 20px;
+
+}

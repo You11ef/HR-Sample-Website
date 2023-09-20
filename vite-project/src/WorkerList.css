@@ -1,0 +1,4 @@
+.list {
+  border-right: solid;
+  overflow-y: scroll;
+}
